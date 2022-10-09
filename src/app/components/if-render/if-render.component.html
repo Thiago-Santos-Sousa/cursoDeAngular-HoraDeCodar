@@ -1,0 +1,19 @@
+<div class="class">
+  <h2>
+    Componente if-render.
+  </h2>
+  <div *ngIf="carShow">
+    Estamos mostrando isso porque foi permitido.
+    <h2 *ngIf="name == 'Matheus'; else nameNotfound">
+      O nome é Matheus.
+    </h2>
+    <ng-template #nameNotfound>
+      <div>
+        <h2>
+          O nome não foi encontrado.
+        </h2>
+      </div>
+    </ng-template>
+    
+  </div>
+</div>
