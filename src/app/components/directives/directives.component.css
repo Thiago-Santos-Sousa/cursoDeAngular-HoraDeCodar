@@ -1,6 +1,11 @@
 .green-title{
-  font-size: 25px;
+  font-size: 23px;
+  color: rgb(127, 255, 206);
 }
 .small-title{
-  color: blue;
+  color: rgb(168, 95, 26);
+}
+.underline-title{
+  color: rgb(255, 0, 191);
+  text-decoration: underline;
 }

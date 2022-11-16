@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-directives',
@@ -7,11 +6,13 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./directives.component.css']
 })
 export class DirectivesComponent implements OnInit {
-  size = 40;
+  size = '40';
   font = 'Arial';
-  color = 'red';
+  color = 'Red';
 
   classes = ['green-title', 'small-title'];
+
+  underline = 'underline-title';
 
   constructor() { }
 

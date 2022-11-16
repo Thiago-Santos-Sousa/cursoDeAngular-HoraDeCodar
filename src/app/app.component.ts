@@ -1,4 +1,4 @@
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,11 +6,11 @@ import { Component} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  userName = 'joaquim';
+  userName = 'Thais Sampaio';
 
   userData = {
-    email: 'joaquim@email.com',
-    role: 'admin',
+    email: 'thaisSampaio@gmail.com',
+    role: 'Admin',
   }
 
   title = 'curso-angular';

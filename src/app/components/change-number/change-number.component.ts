@@ -6,13 +6,15 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./change-number.component.css']
 })
 export class ChangeNumberComponent implements OnInit {
-  @Output() missaoclicar: EventEmitter<any> = new EventEmitter()
 
+  @Output() changeNumber: EventEmitter<any> = new EventEmitter()
+  
   constructor() { }
 
   ngOnInit(): void {
   }
-  clicar() {
-    this.missaoclicar.emit();
+
+  handleClick() {
+    this.changeNumber.emit();
   }
 }

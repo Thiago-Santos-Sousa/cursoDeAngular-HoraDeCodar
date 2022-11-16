@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./if-render.component.css']
 })
 export class IfRenderComponent implements OnInit {
-  carShow: boolean = true;
-  name = "Matheus";
+  canShow = true;
+  name = 'Thais';
 
   constructor() { }
 

@@ -7,20 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventosComponent implements OnInit {
   show: boolean = false;
-  txt: boolean = false;
-  loko: boolean = false;
+  map: boolean = false;
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
+
   showMessage(): void{
-      this.show = !this.show; // toggle
+    this.show = !this.show; //toggle
   }
-  txts(): void{
-    this.txt = !this.txt; // toggle
-  }
-  lokom(): void{
-    this.loko = !this.loko;; // toggle
+
+  inMap(): void{
+    this.map = !this.map;
   }
 }

@@ -1,26 +1,10 @@
 <div class="class">
-  <h2>
-    Componente first-component.
-  </h2>
-  <h2>
-    Me chamo <strong>{{name}}</strong>.
-  </h2>
-  <p>
-    E tenho {{age}} anos e pretendo me tornar um {{job}}.
-  </p>
-  <p>
-    Gosto de {{hobbies[0]}}, me amarro em {{hobbies[1]}} e amo {{hobbies[2]}}. <!--Chamando arrays-->
-  </p>
-  <div class="title">
-    <p>
-      Nome do Carro: {{car.name}}
-      <br>                        <!--Chamando objetos-->
-      Ano do carro: {{car.year}}
-    </p>
-  </div>
+  <h2 class="title">Nome: {{ name }}</h2>
+  <p>Idade: {{ age }}</p>
+  <p>Profissão {{ job }}</p>
+  <p>Hobbie que mais gosto: {{ hobbies[0] }}</p>
   <div>
-    <a href="#">
-      Link first-component
-    </a>
+    <a href="#">Veja mais sobre o Thiago</a>
   </div>
+  <p>Placa do carro: {{ car.placa }} - {{ car.year }}</p>
 </div>
